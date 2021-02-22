@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyVersion>21.2.17.2</AssemblyVersion>
+    <FileVersion>21.2.17.2</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SuperSimpleTcp" Version="2.2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Server.API\Server.API.csproj" />
+  </ItemGroup>
+
+</Project>

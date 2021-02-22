@@ -1,0 +1,24 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="OpenDeck.Client.ButtonPage">
+  <Grid ShowGridLines="True" Name="MainGrid" x:CompileBindings="True" ColumnDefinitions="1*,1*,1*,1*,1*" RowDefinitions="0.4*,0.8*,0.8*,0.8*">
+    <Button x:Name="0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="1"></Button>
+    <Button x:Name="1,0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="1"></Button>
+    <Button x:Name="2,0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2" Grid.Row="1"></Button>
+    <Button x:Name="3,0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="3" Grid.Row="1"></Button>
+    <Button x:Name="4,0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="4" Grid.Row="1"></Button>
+    <Button x:Name="0,1" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="2"></Button>
+    <Button x:Name="1,1" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="2"></Button>
+    <Button x:Name="2,1" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2" Grid.Row="2"></Button>
+    <Button x:Name="3,1" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="3" Grid.Row="2"></Button>
+    <Button x:Name="4,1" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="4" Grid.Row="2"></Button>
+    <Button x:Name="0,2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="3"></Button>
+    <Button x:Name="1,2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="3"></Button>
+    <Button x:Name="2,2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2" Grid.Row="3"></Button>
+    <Button x:Name="3,2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="3" Grid.Row="3"></Button>
+    <Button x:Name="4,2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="4" Grid.Row="3"></Button>
+  </Grid>
+</UserControl>

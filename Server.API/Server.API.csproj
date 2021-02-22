@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>OpenDeck.Server.API</RootNamespace>
+    <AssemblyVersion>21.2.17.10</AssemblyVersion>
+    <FileVersion>21.2.17.10</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1-beta1" />
+    <PackageReference Include="sharpconfig" Version="3.2.9.1" />
+    <PackageReference Include="SimpleSockets" Version="1.2.20" />
+  </ItemGroup>
+
+</Project>

@@ -4,6 +4,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="OpenDeck.Client.MainWindow"
-        Title="Client">
-    Welcome to Avalonia!
+        Title="Client" Closing="Window_Closing">
+  <Grid x:Name="MainGrid">
+  </Grid>
 </Window>

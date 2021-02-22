@@ -1,0 +1,41 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:ClientMVVM.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="ClientMVVM.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"      
+        Title="ClientMVVM">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+  <Window.Styles>
+    <Style Selector="Button:pointerover">
+      <Setter Property="Background" Value="{DynamicResource ThemeControlHighBrush}"/>
+    </Style>
+    <Style Selector="Button:pressed">
+      <Setter Property="Background" Value="{DynamicResource ThemeControlHighBrush}"/>
+    </Style>
+  </Window.Styles>
+  <Grid ShowGridLines="{Binding DebugGrid}" ColumnDefinitions="1*,1*,1*,1*,1*" RowDefinitions="0.5*,1*,1*,1*">
+    <Button FontSize="{Binding FontSize}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Stretch" Click="Button_onClick" Name="Button0" Tag="0" Grid.Column="0" Grid.Row="1" Margin="{Binding ButtonMargrin}"/>
+    <Button FontSize="{Binding FontSize}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Stretch" Click="Button_onClick" Name="Button1" Tag="1" Grid.Column="1" Grid.Row="1" Margin="{Binding ButtonMargrin}"/>
+    <Button FontSize="{Binding FontSize}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Stretch" Click="Button_onClick" Name="Button2" Tag="2" Grid.Column="2" Grid.Row="1" Margin="{Binding ButtonMargrin}"/>
+    <Button FontSize="{Binding FontSize}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Stretch" Click="Button_onClick" Name="Button3" Tag="3" Grid.Column="3" Grid.Row="1" Margin="{Binding ButtonMargrin}"/>
+    <Button FontSize="{Binding FontSize}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Stretch" Click="Button_onClick" Name="Button4" Tag="4" Grid.Column="4" Grid.Row="1" Margin="{Binding ButtonMargrin}"/>
+
+    <Button FontSize="{Binding FontSize}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Stretch" Click="Button_onClick" Name="Button5" Tag="5" Grid.Column="0" Grid.Row="2" Margin="{Binding ButtonMargrin}"/>
+    <Button FontSize="{Binding FontSize}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Stretch" Click="Button_onClick" Name="Button6" Tag="6" Grid.Column="1" Grid.Row="2" Margin="{Binding ButtonMargrin}"/>
+    <Button FontSize="{Binding FontSize}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Stretch" Click="Button_onClick" Name="Button7" Tag="7" Grid.Column="2" Grid.Row="2" Margin="{Binding ButtonMargrin}"/>
+    <Button FontSize="{Binding FontSize}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Stretch" Click="Button_onClick" Name="Button8" Tag="8" Grid.Column="3" Grid.Row="2" Margin="{Binding ButtonMargrin}"/>
+    <Button FontSize="{Binding FontSize}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Stretch" Click="Button_onClick" Name="Button9" Tag="9" Grid.Column="4" Grid.Row="2" Margin="{Binding ButtonMargrin}"/>
+
+    <Button FontSize="{Binding FontSize}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Stretch" Click="Button_onClick" Name="Button10" Tag="10" Grid.Column="0" Grid.Row="3" Margin="{Binding ButtonMargrin}"/>
+    <Button FontSize="{Binding FontSize}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Stretch" Click="Button_onClick" Name="Button11" Tag="11" Grid.Column="1" Grid.Row="3" Margin="{Binding ButtonMargrin}"/>
+    <Button FontSize="{Binding FontSize}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Stretch" Click="Button_onClick" Name="Button12" Tag="12" Grid.Column="2" Grid.Row="3" Margin="{Binding ButtonMargrin}"/>
+    <Button FontSize="{Binding FontSize}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Stretch" Click="Button_onClick" Name="Button13" Tag="13" Grid.Column="3" Grid.Row="3" Margin="{Binding ButtonMargrin}"/>
+    <Button FontSize="{Binding FontSize}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Stretch" Click="Button_onClick" Name="Button14" Tag="14" Grid.Column="4" Grid.Row="3" Margin="{Binding ButtonMargrin}"/>
+  </Grid>
+</Window>
